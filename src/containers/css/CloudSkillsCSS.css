@@ -14,7 +14,7 @@ h1 {
     margin: 0;
     padding: 0;
     text-align: center;
-    opacity: 0.5;
+
 }
 
 .SkillsCloud-outer {
@@ -41,6 +41,7 @@ h1 {
 
 .tag-cloud {
     flex: 1;
+
 }
 
 .tag-cloud > div {
@@ -87,4 +88,7 @@ h1 {
     padding: 20px;
     text-align: center;
     font-family: "Playfair Display", Georgia, serif;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+
 }
+

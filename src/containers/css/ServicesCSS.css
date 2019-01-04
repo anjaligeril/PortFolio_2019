@@ -12,7 +12,7 @@
 .services-outer{
     margin-top: 0px;
     margin-bottom: 0px;
-    background-image: url("../images/img4.png");
+    background-image: url("../images/img3.jpeg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,6 +30,8 @@
     margin: 0 auto;
     background: #2c98f0;
     z-index: 1000;
+    color:white;
+    font-size:35px;
 }
 
 .services.color-5 {

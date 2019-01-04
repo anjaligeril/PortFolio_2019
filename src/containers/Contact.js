@@ -13,13 +13,7 @@ class Contact extends Component{
                                          transitionLeaveTimeout={800}>
                 <span className="heading-meta title">Get in Touch</span>
                 <h2 className="subheading title">Contact</h2>
-                </ReactCSSTransitionGroup>
-                <ReactCSSTransitionGroup
-                    transitionName="slide"
-                    transitionAppear={true}
-                    transitionAppearTimeout={2500}
-                    transitionEnterTimeout={2500}
-                    transitionLeaveTimeout={1000}>
+               
                 <div className="row">
 
                     <div className="col-md-5">

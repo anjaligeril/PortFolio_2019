@@ -40,10 +40,10 @@ class Services extends Component{
                     </div>
                     <div className=" col-md-4 text-center ">
                         <div className="box1 services color-3">
-                            <span className=" icon "><i className="glyphicon glyphicon-phone"></i></span>
+                            <span className=" icon "><i className=" fa fa-rocket"></i></span>
                             <div className="desc">
-                                <h3 className="title">Application</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                <h3 className="title">Fast</h3>
+                                <p>Fast load times and lag free interaction, my highest priority.</p>
                             </div>
                         </div>
                     </div>
@@ -55,28 +55,28 @@ class Services extends Component{
                                              transitionLeaveTimeout={1000}>
                     <div className="col-md-4 text-center ">
                         <div className=" box1 services color-4">
-                            <span className="icon "><i className="glyphicon glyphicon glyphicon-globe"></i></span>
+                            <i className="material-icons icon ">phonelink</i>
                             <div className="desc">
-                                <h3 className="title">Graphic Design</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                <h3 className="title">Responsive</h3>
+                                <p>My layouts will work on any device, big or small.</p>
                             </div>
                         </div>
                     </div>
                     <div className=" col-md-4 text-center ">
                         <div className="box1 services color-5">
-                            <span className="icon "> <i className="glyphicon glyphicon-tasks"></i></span>
+                            <span className="icon "> <i className="  fa fa-lightbulb-o"></i></span>
                             <div className="desc">
-                                <h3 className="title">Software</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                <h3 className="title">Intuitive</h3>
+                                <p>Strong preference for easy to use, intuitive UX/UI.</p>
                             </div>
                         </div>
                     </div>
                     <div className="  col-md-4 text-center ">
                         <div className="box1 services color-6">
-                            <span className="icon  "><i className="glyphicon glyphicon-hourglass"></i></span>
+                            <span className="icon  "><i className="fa fa-magic"></i></span>
                             <div className="desc">
-                                <h3 className="title">Application</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                <h3 className="title">Dynamic</h3>
+                                <p>Websites don't have to be static, I love making pages come to life.</p>
                             </div>
                         </div>
                     </div>

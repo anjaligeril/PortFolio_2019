@@ -44,8 +44,14 @@ class Skills extends Component{
                                              transitionLeaveTimeout={800}>
                     <span className="heading-meta title">My Specialty</span>
                     <h2 className="subheading title">My Skills</h2>
-                    <div className="row">
-                        <SkillBar skills={this.SKILLS} animationDuration={6000}/>
+                        <div className="col-md-12 " >
+                            <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas,
+                                wild Question.  Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+                                She packed her seven
+                                versalia, put her initial into the belt and made herself on the way.</p>
+                        </div>
+                    <div className="row col-lg-12">
+                        <SkillBar skills={this.SKILLS} animationDuration={4000}/>
                     </div>
                     </ReactCSSTransitionGroup>
                 </div>

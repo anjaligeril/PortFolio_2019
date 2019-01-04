@@ -5,9 +5,10 @@ import CloudItem from '../components/CloudItem';
 import './css/CloudSkillsCSS.css';
 import Video from "./images/background.mp4";
 import Cv from "./images/cv.pdf";
-import Image1 from'./images/img4.png'
-import Image2 from'./images/img3.jpg'
-import Image3 from './images/Img5.png'
+import Image1 from'./images/img2.jpg'
+import Image2 from'./images/img3.jpeg'
+import Image3 from './images/img4.jpeg'
+import Image4 from './images/img5.jpg'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import BackgroundSlideshow from 'react-background-slideshow'
 
@@ -35,7 +36,9 @@ class SkillsCloud extends Component {
     render() {
         return (
             <div className="SkillsCloudBody ">
-                <BackgroundSlideshow images={[ Image1, Image2, Image3 ]} />
+
+                <BackgroundSlideshow  images={[ Image1, Image2, Image3,Image4]} />
+
                 <ReactCSSTransitionGroup
                     transitionName="fade"
                     transitionAppear={true}
@@ -45,58 +48,145 @@ class SkillsCloud extends Component {
 
 
                     <div className="skills1">
-                        <h2>Hi. I’m Anjali, a software developer from Toronto, Canada.</h2> <h3>Please take a look around!</h3>
+                        <h1>Anjali Elizabeth Joseph</h1>
+                        <h3>I’m a Toronto based  web designer & front‑end developer focused on crafting clean  & user‑friendly experiences. </h3>
                     </div>
 
                     <div className="SkillsCloud-outer">
 
 
-                        <div className="col-lg-3"></div>
+                        <div className="col-lg-1"></div>
 
-                        <div className="SkillsCloud-inner col-lg-6">
+                        <div className="SkillsCloud-inner col-lg-10">
 
                             <TagCloud
                                 className='tag-cloud'
-                                style={{
-                                    fontFamily: 'sans-serif',
-                                    fontSize: 30,
-                                    color: () => randomColor({
-                                        hue: 'blue'
-                                    }),
-                                    padding: 5,
-                                }}>
+                                    style={{padding:7,
+                                        fontFamily: 'Georgia',
+                                        }}
+                                >
                                 <div
                                     style={{
-                                        fontFamily: 'serif',
                                         fontSize: 40,
                                         fontStyle: 'italic',
-                                        fontWeight: 'bold',
-                                        color: randomColor()
-                                    }}>Photoshop</div>
-                                <div> </div>
-                                <div >JavaScript</div>
-                                <div >HTML5</div>
-                                <div >CSS</div>
-                                <div >React.js</div>
-                                <div >BootStrap</div>
-                                <div >Java</div>
-                                <div >C</div>
-                                <div >C++</div>
-                                <div >C#</div>
-                                <div >ASP.net</div>
-                                <div >Python</div>
-                                <div>JSP</div>
-                                <div>SQL</div>
-                                <div>TSQL</div>
-                                <div>JSON</div>
-                                <div>XML</div>
-                                <div >Angular.js</div>
 
+                                        color: randomColor()
+
+                                    }}>React.js</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}> BootStrap </div>
+                                <div style={{
+                                                fontSize: 30,
+                                    color: randomColor()
+                                }} >JavaScript</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }} >HTML5</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                   color: randomColor()
+                                }}>CSS</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }} >PHP</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                   color: randomColor()
+                                }}>JQuery</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>Java</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>C</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>C++</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }} >C#</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>ASP.net</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }} >Python</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>JSP</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>MySQL</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>MicroSoft SQL</div>
+                                <div style={{
+
+                                   fontSize: 30,
+                                    color: randomColor()
+                                }}>JSON</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>XML</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>Angular.js</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>Linux & Apache</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>Android</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>Mobile Web</div>
+                                <div style={{
+
+                                    fontSize: 30,
+                                    color: randomColor()
+                                }}>IOS</div>
                             </TagCloud>
 
                         </div>
 
-                        <div className="col-lg-3"></div>
+                        <div className="col-lg-1"></div>
 
                     </div>
 

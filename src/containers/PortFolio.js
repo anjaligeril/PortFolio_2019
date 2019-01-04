@@ -59,11 +59,9 @@ class PortFolio extends Component{
 
                                     <ul>
                                         <li className="active menu-item title"><Link to={"/"} onClick={() => this.closeMenu()}>Home</Link></li>
-                                        <li className="menu-item title"><Link to={"/about"} onClick={() => this.closeMenu()}>About</Link></li>
+                                        <li className="menu-item title"><Link to={"/about"} onClick={() => this.closeMenu()}>About Me</Link></li>
                                         <li className="menu-item title"><Link to={"/services"} onClick={() => this.closeMenu()}>Services</Link></li>
-                                        <li className="menu-item title"><Link to={"/skills"} onClick={() => this.closeMenu()}>Skills</Link></li>
-                                        <li className="menu-item title"><Link to={"/education"} onClick={() => this.closeMenu()}>Education</Link></li>
-                                        <li className="menu-item title"><Link to={"/experience"} onClick={() => this.closeMenu()}>Experience</Link></li>
+                                        <li className="menu-item title"><Link to={"/experience"} onClick={() => this.closeMenu()}>Education & Experience</Link></li>
                                         <li className="menu-item title"><Link to={"/contact"} onClick={() => this.closeMenu()}>Contact</Link></li>
                                     </ul>
                                 </div>

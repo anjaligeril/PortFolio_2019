@@ -4,7 +4,7 @@
     margin:0 auto;
     width:960px;
     background-color: beige;
-    height:800px;
+    height:1500px;
     opacity: 0.9;
     padding:50px 50px 50px 50px;
 }
@@ -12,7 +12,7 @@
 .experienceSection-outer{
     margin-top: 0px;
     margin-bottom: 0px;
-    background-image: url("../images/img4.png");
+    background-image: url("../images/img2.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
