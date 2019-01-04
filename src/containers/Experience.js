@@ -1,60 +1,55 @@
 import React ,{Component} from 'react'
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import './css/ExperienceCSS.css'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 class Experience extends Component{
     render(){
         return(
+            <div className="experienceSection-outer">
             <div className="experienceSection text-left">
+                <ReactCSSTransitionGroup transitionName="fade"
+                                         transitionAppear={true}
+                                         transitionAppearTimeout={1500}
+                                         transitionEnterTimeout={1500}
+                                         transitionLeaveTimeout={800}>
                 <span className="heading-meta title">Experience</span>
                 <h2 className="subheading title">Work Experience</h2>
+                </ReactCSSTransitionGroup>
                 <div className="row">
-                    <ReactCSSTransitionGroup transitionName="slide5"
-                                             transitionAppear={true}
-                                             transitionAppearTimeout={1000}
-                                             transitionEnterTimeout={1000}
-                                             transitionLeaveTimeout={1000}>
-                    <div className="col-md-12">
-                        <div className="timeline-centered">
-                            <article className="timeline-entry ">
-                                <div className="timeline-entry-inner">
+                    <VerticalTimeline>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
 
-                                    <div className="timeline-icon color-1">
-                                        <i className="glyphicon glyphicon-briefcase"></i>
-                                    </div>
+                            iconStyle={{ background: 'orange', color: '#fff' }}
+                            icon={<i className="fa fa-car icon1"></i>}
+                        >
+                            <h3 className="vertical-timeline-element-title">Creative Director</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                            <p>
+                                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
 
-                                    <div className="timeline-label">
-                                        <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-                                        <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and
-                                            offered prepare how cordial two promise. Greatly who affixed suppose but
-                                            enquire compact prepare all put. Added forth chief trees but rooms think
-                                            may.</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <article className="timeline-entry " >
-                                <div className="timeline-entry-inner">
-                                    <div className="timeline-icon color-2">
-                                        <i className="glyphicon glyphicon-briefcase"></i>
-                                    </div>
-                                    <div className="timeline-label">
-                                        <h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span>
-                                        </h2>
-                                        <p>Even the all-powerful Pointing has no control about the blind texts it is an
-                                            almost unorthographic life One day however a small line of blind text by the
-                                            name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                    </div>
-                                </div>
-                            </article>
-                            <article className="timeline-entry begin " >
-                                <div className="timeline-entry-inner">
-                                    <div className="timeline-icon color-none">
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
+                            iconStyle={{ background: 'purple', color: '#fff' }}
+                            icon={<i className="fa fa-car icon1"></i>}
+                        >
+                            <h3 className="vertical-timeline-element-title">Art Director</h3>
+                            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                            <p>
+                                Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                            </p>
+                        </VerticalTimelineElement>
 
-                        </div>
-                    </ReactCSSTransitionGroup>
+                        <VerticalTimelineElement
+                            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+
+                        />
+                    </VerticalTimeline>
                 </div>
+            </div>
             </div>
         )
     }

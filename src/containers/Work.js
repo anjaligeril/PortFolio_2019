@@ -1,16 +1,12 @@
 import React ,{Component} from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 class Work extends Component{
     render(){
         return(
             <div className="workSection text-left">
                 <span className="heading-meta title">My Work</span>
                 <h2 className="subheading title">Recent Works</h2>
-                <ReactCSSTransitionGroup transitionName="slide4"
-                                         transitionAppear={true}
-                                         transitionAppearTimeout={1000}
-                                         transitionEnterTimeout={1000}
-                                         transitionLeaveTimeout={1000}>
+
                 <div className="row row-bottom-padded-sm " >
 
                     <div className="col-md-12">
@@ -81,7 +77,7 @@ class Work extends Component{
                         </div>
                     </div>
                 </div>
-                </ReactCSSTransitionGroup>
+
             </div>
 
         )

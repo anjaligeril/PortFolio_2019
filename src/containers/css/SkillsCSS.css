@@ -1,0 +1,20 @@
+.skillsSection{
+    margin-top:50px;
+    position:relative;
+    margin:0 auto;
+    width:960px;
+    background-color: beige;
+    height:800px;
+    opacity: 0.9;
+    padding:50px 50px 50px 50px;
+}
+
+.skillsSection-outer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url("../images/img4.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

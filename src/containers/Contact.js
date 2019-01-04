@@ -1,24 +1,32 @@
 import React ,{Component} from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import './css/ContactCSS.css'
 class Contact extends Component{
     render(){
         return(
+            <div className="contactSection-outer">
             <div className="contactSection text-left">
+                <ReactCSSTransitionGroup transitionName="fade"
+                                         transitionAppear={true}
+                                         transitionAppearTimeout={1500}
+                                         transitionEnterTimeout={1500}
+                                         transitionLeaveTimeout={800}>
                 <span className="heading-meta title">Get in Touch</span>
                 <h2 className="subheading title">Contact</h2>
-
+                </ReactCSSTransitionGroup>
+                <ReactCSSTransitionGroup
+                    transitionName="slide"
+                    transitionAppear={true}
+                    transitionAppearTimeout={2500}
+                    transitionEnterTimeout={2500}
+                    transitionLeaveTimeout={1000}>
                 <div className="row">
-                    <ReactCSSTransitionGroup
-                        transitionName="slide"
-                        transitionAppear={true}
-                        transitionAppearTimeout={1000}
-                        transitionEnterTimeout={1000}
-                        transitionLeaveTimeout={1000}>
+
                     <div className="col-md-5">
                         <div className="contact-feature contact-feature-sm "
                              >
                             <div className="contact-icon">
-                                <i className="glyphicon glyphicon-send"></i>
+                                <i className="glyphicon glyphicon-envelope"></i>
                             </div>
                             <div className="contact-text">
                                 <p><a href="#">anjali99malu@gmail.com</a></p>
@@ -72,7 +80,9 @@ class Contact extends Component{
 
                         </div>
                     </div>
-                    </ReactCSSTransitionGroup>
+
+                </div>
+                </ReactCSSTransitionGroup>
                 </div>
             </div>
 

@@ -5,17 +5,19 @@
     height: 25px;
     left: 36px;
     top: 36px;
+    z-index: 1000;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-    background: #b8b7ad;
+    background: white;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
     height: 24px;
     width: 24px;
+    z-index: 1000;
 }
 
 /* Color/shape of close button cross */
@@ -25,20 +27,16 @@
 
 /* General sidebar styles */
 .bm-menu {
-    background: #373a47;
+
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
 }
 
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-    fill: #373a47;
-}
 
 /* Wrapper for item list */
 .bm-item-list {
     color: #b8b7ad;
-    padding: 0.8em;
+    padding: 0.6em;
 }
 
 /* Individual item */
@@ -51,6 +49,9 @@
     background: rgba(0, 0, 0, 0);
 }
 
+. menu {
+
+}
 ul {
     list-style-type: none;
 
@@ -59,13 +60,10 @@ ul {
 li{
     padding-top:25px;
 }
-.menu{
+.navigation {
 
-}
-.navigation{
-
-    top:0px;
-    left:0;
+    top: 0px;
+    left: 0;
     display: block;
     box-sizing: border-box;
     position: absolute;
@@ -73,20 +71,11 @@ li{
 
 }
 
-.footer {
-    font-size: 15px;
-    text-align: center;
-    font-weight: 400;
-    color: wheat;
-    padding: 0 20px;
-    width: 100%;
+
+.well{
+    height: 800px;
+
 }
-@media screen and (max-width: 768px) {
-    .footer {
-        position: relative;
-        bottom: 0; } }
-.footer span {
-    display: block; }
 .footer ul {
     padding: 0;
     margin: 0; }
@@ -102,3 +91,57 @@ li{
     text-decoration: none;
     outline: none;
     color: #2c98f0; }
+
+.head{
+    color:black;
+}
+
+.subheading {
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative; }
+.subheading span {
+    display: block; }
+
+
+.heading-meta {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+
+.video1{
+    height:70%;
+    width:100%;
+    top:0;
+    filter: blur(8px);
+}
+
+.headButton {
+    position: fixed;
+    top: 0;
+    right:30px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.headButton a{
+    color: white;
+    font-size:15px
+}
+.link1{
+    margin-right: 50px;
+}
+
+
+

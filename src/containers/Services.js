@@ -1,17 +1,24 @@
 import React ,{Component} from 'react'
+import './css/ServicesCSS.css'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 class Services extends Component{
     render(){
         return(
+            <div className="services-outer">
             <div className="servicesSection text-left">
-
+                <ReactCSSTransitionGroup transitionName="fade"
+                                         transitionAppear={true}
+                                         transitionAppearTimeout={1500}
+                                         transitionEnterTimeout={1500}
+                                         transitionLeaveTimeout={800}>
                 <span className="heading-meta title">What I do?</span>
                 <h2 className="subheading title">Here are some of my expertise</h2>
+                </ReactCSSTransitionGroup>
                 <div className="row  row-pt-md">
                     <ReactCSSTransitionGroup transitionName="slide2"
                                              transitionAppear={true}
-                                             transitionAppearTimeout={1000}
-                                             transitionEnterTimeout={1000}
+                                             transitionAppearTimeout={2000}
+                                             transitionEnterTimeout={2000}
                                              transitionLeaveTimeout={1000}>
                     <div className=" col-md-4 text-center">
                         <div className="box1 services color-1">
@@ -43,8 +50,8 @@ class Services extends Component{
                     </ReactCSSTransitionGroup>
                     <ReactCSSTransitionGroup transitionName="slide5"
                                              transitionAppear={true}
-                                             transitionAppearTimeout={1000}
-                                             transitionEnterTimeout={1000}
+                                             transitionAppearTimeout={2000}
+                                             transitionEnterTimeout={2000}
                                              transitionLeaveTimeout={1000}>
                     <div className="col-md-4 text-center ">
                         <div className=" box1 services color-4">
@@ -76,6 +83,7 @@ class Services extends Component{
                     </ReactCSSTransitionGroup>
                 </div>
 
+            </div>
             </div>
         )
     }

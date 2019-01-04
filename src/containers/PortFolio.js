@@ -1,48 +1,73 @@
 import React ,{Component} from 'react'
-import { elastic as Menu } from 'react-burger-menu'
-import './css/PortfolioCSS.css'
-import {Route} from "react-router-dom";
+import { slide as Menu } from 'react-burger-menu'
 import Img1 from './images/img1.jpg'
+import './css/PortfolioCSS.css'
+import {Route} from "react-router-dom"
 import About from './About'
 import Services from './Services'
 import Skills from './Skills'
 import Education from './Education'
 import Experience from './Experience'
-import Work from './Work'
 import Contact from './Contact'
 import {Link} from 'react-router-dom'
-import './css/MainCSS.css'
-import Main from "./Main";
-import './css/FrontCss.css'
+import './css/style.css'
+import SkillsCloud from "./SkillsCloud";
+import './css/Animation.css'
 
 class PortFolio extends Component{
+
+    constructor (props) {
+        super(props)
+        this.state = {
+            menuOpen: false
+        }
+    }
+
+
+    handleStateChange (state) {
+        this.setState({menuOpen: state.isOpen})
+    }
+
+
+    closeMenu () {
+        this.setState({menuOpen: false})
+    }
+
+
+
+    toggleMenu () {
+        this.setState({menuOpen: !this.state.menuOpen})
+    }
+
     render(){
+
         return(
             <div className="wrapper" >
 
-                <Menu className="menu" >
+                <Menu className="menu"   noOverlay  isOpen={this.state.menuOpen}
+                      onStateChange={(state) => this.handleStateChange(state)} >
 
                     <div className="navigation">
                         <div className=" navi affix">
-
+                            <div className="well">
+                                <div className="text-center  ">
+                                    <img src={Img1} height="150" width="150" className="img-circle" alt="photo"/>
+                                    <h3 className="title head ">Anjali Elizabeth Joseph</h3>
+                                    <span ><a href="#">Software Developer</a> </span><span className="head title">in Toronto</span>
+                                </div>
                                 <div className="nav ">
 
                                     <ul>
-                                        <li className="active menu-item title"><Link to={"/"}>Home</Link></li>
-                                        <li className="menu-item title"><Link to={"/about"}>About</Link></li>
-                                        <li className="menu-item title"><Link to={"/services"}>Services</Link></li>
-                                        <li className="menu-item title"><Link to={"/skills"}>Skills</Link></li>
-                                        <li className="menu-item title"><Link to={"/education"}>Education</Link></li>
-                                        <li className="menu-item title"><Link to={"/experience"}>Experience</Link></li>
-                                        <li className="menu-item title"><Link to={"/work"}>Work</Link></li>
-                                        <li className="menu-item title"><Link to={"/contact"}>Contact</Link></li>
+                                        <li className="active menu-item title"><Link to={"/"} onClick={() => this.closeMenu()}>Home</Link></li>
+                                        <li className="menu-item title"><Link to={"/about"} onClick={() => this.closeMenu()}>About</Link></li>
+                                        <li className="menu-item title"><Link to={"/services"} onClick={() => this.closeMenu()}>Services</Link></li>
+                                        <li className="menu-item title"><Link to={"/skills"} onClick={() => this.closeMenu()}>Skills</Link></li>
+                                        <li className="menu-item title"><Link to={"/education"} onClick={() => this.closeMenu()}>Education</Link></li>
+                                        <li className="menu-item title"><Link to={"/experience"} onClick={() => this.closeMenu()}>Experience</Link></li>
+                                        <li className="menu-item title"><Link to={"/contact"} onClick={() => this.closeMenu()}>Contact</Link></li>
                                     </ul>
                                 </div>
                                 <div className="footer  ">
-                                    <p><small>&copy; Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                                        All rights reserved ..<br/>This website is made
-                                        by Anjali..
-                                    </small></p>
                                     <ul className="list">
                                         <li><a href="#"><i className="fa fa-facebook-square"></i></a></li>
                                         <li><a href="#"><i className="	fa fa-twitter-square"></i></a></li>
@@ -54,20 +79,21 @@ class PortFolio extends Component{
 
                         </div>
 
-
+                        </div>
                     </div>
+                </Menu>
+
                     <div className="content ">
-                        <Route path="/" exact component={Main}  />
+                        <Route path="/" exact component={SkillsCloud}  />
                         <Route path="/about" exact component={About}/>
                         <Route path="/services" component={Services}/>
                         <Route path="/skills" component={Skills}/>
                         <Route path="/education" component={Education}/>
                         <Route path="/experience" component={Experience}/>
-                        <Route path="/work" component={Work}/>
                         <Route path="/contact" component={Contact}/>
                     </div>
 
-                </Menu>
+
             </div>
 
         );

@@ -1,0 +1,47 @@
+.experienceSection{
+    margin-top:50px;
+    position:relative;
+    margin:0 auto;
+    width:960px;
+    background-color: beige;
+    height:800px;
+    opacity: 0.9;
+    padding:50px 50px 50px 50px;
+}
+
+.experienceSection-outer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url("../images/img4.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.icon1{
+    margin-left: 12px;
+    margin-top:12px;
+    font-size:30px;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-1 2.5s;
+    -moz-animation: cd-bounce-1 2.5s;
+    animation: cd-bounce-1 2.5s;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2 2.5s;
+    -moz-animation: cd-bounce-2 2.5s;
+    animation: cd-bounce-2 2.5s;
+}
+
+.vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content.bounce-in,
+.vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content.bounce-in {
+    -webkit-animation: cd-bounce-2-inverse 2.5s;
+    -moz-animation: cd-bounce-2-inverse 2.5s;
+    animation: cd-bounce-2-inverse 2.5s;
+}
