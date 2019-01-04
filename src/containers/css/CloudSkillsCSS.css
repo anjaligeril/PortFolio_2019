@@ -4,10 +4,18 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     font-smooth: always;
+    margin: 0;
     padding: 0;
-
 }
 
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    opacity: 0.5;
+}
 
 .SkillsCloud-outer {
     align-items: center;
@@ -19,7 +27,9 @@
     padding: 20px 0;
     position: absolute;
     right: 0;
-    top: 200px;}
+    top: 200px;
+    z-index: 1000;
+}
 
 .SkillsCloud-inner {
     display: flex;
@@ -66,19 +76,15 @@
 }
 
 .skills1{
-
-    background-color: rgba(245,245,220,0.3); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 200;
     width: 80%;
     padding: 20px;
     text-align: center;
     font-family: "Playfair Display", Georgia, serif;
 }
-
