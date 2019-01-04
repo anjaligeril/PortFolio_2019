@@ -4,30 +4,6 @@
     <list default="true" id="af4ad8ef-c7f1-42f7-b131-e0ddcd315f36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../hellloreact" beforeDir="false" afterPath="$PROJECT_DIR$/../hellloreact" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/PortFolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PortFolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SkillsCloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SkillsCloud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/AboutCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/AboutCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/CloudSkillsCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/CloudSkillsCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/ContactCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/ContactCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/EducationCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/EducationCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/ExperienceCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/ExperienceCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/PortfolioCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/PortfolioCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/ServicesCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/ServicesCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/css/SkillsCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/css/SkillsCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/images/img2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/images/img4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/images/img4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/images/img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/images/img5.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -272,12 +248,12 @@
       <workItem from="1546455766387" duration="12171000" />
       <workItem from="1546562854117" duration="10476000" />
       <workItem from="1546574790490" duration="19035000" />
-      <workItem from="1546632834538" duration="3309000" />
+      <workItem from="1546632834538" duration="3702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110075000" />
+    <option name="totallyTimeSpent" value="110468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
