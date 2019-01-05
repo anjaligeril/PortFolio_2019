@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import randomColor from 'randomcolor';
 import TagCloud from 'react-tag-cloud';
-import CloudItem from '../components/CloudItem';
+
 import './css/CloudSkillsCSS.css';
-import Video from "./images/background.mp4";
+
 import Cv from "./images/cv.pdf";
 import Image1 from'./images/img2.jpg'
 import Image2 from'./images/img3.jpeg'
