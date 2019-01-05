@@ -23,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/css/PortfolioCSS.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="111" column="21" lean-forward="true" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/SkillsCloud.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3349">
-              <caret line="197" column="81" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="81" />
+              <caret line="197" column="81" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="81" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -170,7 +170,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio_2019" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/PortFolio_2019-feature_NewDesign" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\anjal\Desktop\Anjali\react\portfoliolatest\node_modules\eslint" />
@@ -225,12 +225,12 @@
       <workItem from="1546562854117" duration="10476000" />
       <workItem from="1546574790490" duration="19035000" />
       <workItem from="1546632834538" duration="4654000" />
-      <workItem from="1546651055161" duration="10110000" />
+      <workItem from="1546651055161" duration="10381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121530000" />
+    <option name="totallyTimeSpent" value="121801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -502,14 +502,14 @@
     <entry file="file://$PROJECT_DIR$/src/containers/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/css/PortfolioCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="111" column="21" lean-forward="true" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
+          <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -533,7 +533,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/SkillsCloud.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3349">
-          <caret line="197" column="81" lean-forward="true" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="81" />
+          <caret line="197" column="81" selection-start-line="197" selection-start-column="45" selection-end-line="197" selection-end-column="81" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
