@@ -55,7 +55,7 @@ class About extends Component{
                 <h2 className="subheading title">Who Am I?</h2>
                     <div className="row">
 
-                        <div className="  col-lg-6 ">
+                        <div className="  col-lg-6 col-md-6 col-sm-6 ">
 
 
                             <div className="text"><p  className="title"><strong>Hi I'm Anjali Elizabeth Joseph</strong><br/> I'm an aspiring web designer and front end developer.I have interest for UI effects, animations and creating intuitive, dynamic user experiences.I am passionate about building excellent software that improves the lives of those around me.
@@ -63,13 +63,13 @@ class About extends Component{
 
                         </div>
 
-                        <div className="col-lg-6 " >
+                        <div className="col-lg-6 col-md-6 col-sm-6" >
                             <SkillBar skills={this.SKILLS} animationDuration={4000}/>
                         </div>
 
                     </div>
                     <div className="row">
-                    <div className="col-md-4 block ">
+                    <div className="col-md-4 col-lg-4 col-sm-4 block ">
                         <div className="services color-4">
                             <span className="icon2 fa fa-rocket"></span>
                             <h3 className=""><span className="no">01. </span> Research</h3>
@@ -80,7 +80,7 @@ class About extends Component{
                         </div>
                     </div>
 
-                    <div className="col-md-4 block" >
+                    <div className="col-md-4 col-lg-4 col-sm-4 block" >
                         <div className="services color-3">
                             <i className="material-icons icon2">phonelink</i>
                             <h3 className=""><span className="no">02. </span> Design</h3>
@@ -90,7 +90,7 @@ class About extends Component{
                                 technical research, design of a concept, and prototype mockup.</h5>
                         </div>
                     </div>
-                    <div className="col-md-4 block" >
+                    <div className="col-md-4 col-lg-4 col-sm-4 block" >
                         <div className="services color-2">
 
                             <span className="icon2 	fa fa-lightbulb-o"></span>
@@ -108,7 +108,7 @@ class About extends Component{
 
 
                         <div className="row">
-                        <div className="col-lg-12 " >
+                        <div className="col-lg-12 col-md-12 col-sm-12 " >
                             <div className="hire">
                                 <h2 className="title">I am happy to work for you . Let's make something special.</h2>
                                 <a href="#" className="btn-hire">Hire me</a>

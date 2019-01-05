@@ -16,14 +16,14 @@ class Contact extends Component{
 
                 <div className="row">
 
-                    <div className="col-md-5">
+                    <div className="col-md-5 col-lg-5 col-sm-12">
                         <div className="contact-feature contact-feature-sm "
                              >
                             <div className="contact-icon">
                                 <i className="glyphicon glyphicon-envelope"></i>
                             </div>
                             <div className="contact-text">
-                                <p><a href="#">anjali99malu@gmail.com</a></p>
+                                <h3 className="title"><a href="mailto:anjali99malu@gmail.com">anjali99malu@gmail.com</a></h3>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@ class Contact extends Component{
                                 <i className="glyphicon glyphicon-home"></i>
                             </div>
                             <div className="contact-text">
-                                <p>56 Leander Street ,Brampton ,Ontario L6S3M7</p>
+                                <h3 className="title">56 Leander Street, Brampton ,Ontario L6S3M7</h3>
                             </div>
                         </div>
 
@@ -43,13 +43,15 @@ class Contact extends Component{
                                 <i className="glyphicon glyphicon-phone"></i>
                             </div>
                             <div className="contact-text">
-                                <p><a href="tel://">+416 822 3193</a></p>
+                                <h3 className="title"><a href="tel://">+416 822 3193</a></h3>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-7 col-md-push-1">
+                    <div className="col-md-7 col-lg-7 col-sm-12 col-md-push-1">
+                        <h4 className="title">Have a question or want to work together? </h4>
                         <div className="row">
-                            <div className="col-md-10 col-md-offset-1 col-md-pull-1 "
+
+                            <div className="col-md-10 col-lg-10 col-sm-10 col-md-offset-1 col-md-pull-1 "
                                  >
                                 <form action="">
                                     <div className="form-group">
