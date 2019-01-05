@@ -4,7 +4,7 @@
     margin:0 auto;
     width:960px;
     background-color: beige;
-    height:1500px;
+    height: auto;
     opacity: 0.9;
     padding:50px 50px 50px 50px;
 }
@@ -16,6 +16,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    height:100%;
 }
 
 
