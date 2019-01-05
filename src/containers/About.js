@@ -6,33 +6,39 @@ import SkillBar from 'react-skillbars';
 class About extends Component{
     SKILLS = [
         {
-            "type": "Java",
+            "type": "HTML5",
             "level": 100
         },
         {
-            "type": "React",
-            "level": 85
+            "type": "CSS",
+            "level": 99
         },
         {
-            "type": "Javascript",
+            "type": "BootStrap",
+            "level": 97
+        },
+        {
+            "type": "JavaScript",
+            "level": 95
+        },
+        {
+            "type": "React.js",
+            "level": 90
+        },
+        {
+            "type": "MySQL",
+            "level": 95
+        },
+        {
+            "type": "Java",
             "level": 75
         },
         {
-            "type": "Spring",
-            "level": 50
+            "type": "Python",
+            "level": 80
         },
-        {
-            "type": "Docker",
-            "level": 25
-        },
-        {
-            "type": "HTML",
-            "level": 20
-        },
-        {
-            "type": "NoSQL",
-            "level": 0
-        }
+
+
     ];
     render(){
         return(
@@ -48,54 +54,58 @@ class About extends Component{
                 <span className="heading-meta title">About Me</span>
                 <h2 className="subheading title">Who Am I?</h2>
                     <div className="row">
-                    <div className="col-md-3 block ">
+
+                        <div className="  col-lg-6 ">
+
+
+                            <div className="text"><p  className="title"><strong>Hi I'm Anjali Elizabeth Joseph</strong><br/> I'm an aspiring web designer and front end developer.I have interest for UI effects, animations and creating intuitive, dynamic user experiences.I am passionate about building excellent software that improves the lives of those around me.
+                            </p></div>
+
+                        </div>
+
+                        <div className="col-lg-6 " >
+                            <SkillBar skills={this.SKILLS} animationDuration={4000}/>
+                        </div>
+
+                    </div>
+                    <div className="row">
+                    <div className="col-md-4 block ">
                         <div className="services color-4">
                             <span className="icon2 fa fa-rocket"></span>
-                            <h3 className="">Fast</h3>
-                            <h5>Fast load times and lag free interaction, my highest priority.</h5>
+                            <h3 className=""><span className="no">01. </span> Research</h3>
+                            <h5>Understand the client’s subject matter completely
+                                and build on the knowledge related to it, becoming
+                                intimately familiar with the subject matter.
+                                Determine methods to address the specific customer’s needs and requirements.</h5>
                         </div>
                     </div>
 
-                    <div className="col-md-3 block" >
+                    <div className="col-md-4 block" >
                         <div className="services color-3">
                             <i className="material-icons icon2">phonelink</i>
-                            <h3 className="">Responsive</h3>
-                            <h5>My layouts will work on any device, big or small.</h5>
+                            <h3 className=""><span className="no">02. </span> Design</h3>
+                            <h5>Misleadingly thought of as the superficial appearance of a product,
+                                design actually encompasses a lot more. It is a
+                                cross functional process that includes market research,
+                                technical research, design of a concept, and prototype mockup.</h5>
                         </div>
                     </div>
-                    <div className="col-md-3 block" >
+                    <div className="col-md-4 block" >
                         <div className="services color-2">
 
                             <span className="icon2 	fa fa-lightbulb-o"></span>
 
-                            <h3 className="">Intuitive</h3>
-                            <h5>Strong preference for easy to use, intuitive UX/UI.</h5>
+                            <h3 className=""><span className="no">03. </span> Develop</h3>
+                            <h5>Findings from the research and design phases are utilized for the
+                                production of specific products including materials, systems, and methods.
+                                Engineer utilizing the research and designs to produce commercial products
+                                for the customer.</h5>
                         </div>
                     </div>
-                    <div className="col-md-3 block">
-                        <div className="services color-5">
-                            <span className="icon2 fa fa-magic"></span>
-                            <h3 className="title">Dynamic</h3>
-                            <h5>Websites don't have to be static, I love making pages come to life.</h5>
-                        </div>
-                    </div>
+
                 </div>
 
-                        <div className="row">
 
-                            <div className=" containerPic col-lg-6 ">
-                                <img src={Img1} alt="profilePic" className="image img-thumbnail " />
-                                    <div className="overlay">
-                                        <div className="text"><p  className="title"><strong>Hi I'm Anjali Elizabeth Joseph</strong> I'm an aspiring web designer and front end developer.I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-                                            </p></div>
-                                    </div>
-                            </div>
-
-                            <div className="col-lg-6 " >
-                                <SkillBar skills={this.SKILLS} animationDuration={4000}/>
-                            </div>
-
-                        </div>
 
                         <div className="row">
                         <div className="col-lg-12 " >

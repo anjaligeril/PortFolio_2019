@@ -24,7 +24,7 @@ class Services extends Component{
                         <div className="box1 services color-1">
                             <span className="icon  "><i className="glyphicon glyphicon-flash"></i></span>
                             <div className="desc">
-                                <h3 className="title">Innovative Ideas</h3>
+                                <h3 className="title">Websites</h3>
                                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
                             </div>
                         </div>
@@ -33,7 +33,7 @@ class Services extends Component{
                         <div className="box1 services color-2">
                             <span className=" icon "><i className="glyphicon glyphicon-send"></i></span>
                             <div className="desc">
-                                <h3 className="title">Software</h3>
+                                <h3 className="title">Sofware </h3>
                                 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ class Services extends Component{
                         <div className="box1 services color-3">
                             <span className=" icon "><i className=" fa fa-rocket"></i></span>
                             <div className="desc">
-                                <h3 className="title">Fast</h3>
+                                <h3 className="title">Android & IOS Apps</h3>
                                 <p>Fast load times and lag free interaction, my highest priority.</p>
                             </div>
                         </div>
@@ -55,9 +55,9 @@ class Services extends Component{
                                              transitionLeaveTimeout={1000}>
                     <div className="col-md-4 text-center ">
                         <div className=" box1 services color-4">
-                            <i className="material-icons icon ">phonelink</i>
+                            <span className=" icon "><i className=" fa fa-rocket"></i></span>
                             <div className="desc">
-                                <h3 className="title">Responsive</h3>
+                                <h3 className="title">Innovative Ideas</h3>
                                 <p>My layouts will work on any device, big or small.</p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ class Services extends Component{
                         <div className="box1 services color-5">
                             <span className="icon "> <i className="  fa fa-lightbulb-o"></i></span>
                             <div className="desc">
-                                <h3 className="title">Intuitive</h3>
+                                <h3 className="title">Logo Designing</h3>
                                 <p>Strong preference for easy to use, intuitive UX/UI.</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ class Services extends Component{
                         <div className="box1 services color-6">
                             <span className="icon  "><i className="fa fa-magic"></i></span>
                             <div className="desc">
-                                <h3 className="title">Dynamic</h3>
+                                <h3 className="title">Resonsive & Dynamic Pages</h3>
                                 <p>Websites don't have to be static, I love making pages come to life.</p>
                             </div>
                         </div>

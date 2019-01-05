@@ -5,8 +5,6 @@ import './css/PortfolioCSS.css'
 import {Route} from "react-router-dom"
 import About from './About'
 import Services from './Services'
-import Skills from './Skills'
-import Education from './Education'
 import Experience from './Experience'
 import Contact from './Contact'
 import {Link} from 'react-router-dom'
@@ -85,8 +83,6 @@ class PortFolio extends Component{
                         <Route path="/" exact component={SkillsCloud}  />
                         <Route path="/about" exact component={About}/>
                         <Route path="/services" component={Services}/>
-                        <Route path="/skills" component={Skills}/>
-                        <Route path="/education" component={Education}/>
                         <Route path="/experience" component={Experience}/>
                         <Route path="/contact" component={Contact}/>
                     </div>

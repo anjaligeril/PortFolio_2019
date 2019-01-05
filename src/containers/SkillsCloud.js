@@ -9,6 +9,8 @@ import Image1 from'./images/img2.jpg'
 import Image2 from'./images/img3.jpeg'
 import Image3 from './images/img4.jpeg'
 import Image4 from './images/img5.jpg'
+import Image5 from './images/img6.jpg'
+import Image6 from './images/img7.jpg'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import BackgroundSlideshow from 'react-background-slideshow'
 
@@ -37,7 +39,7 @@ class SkillsCloud extends Component {
         return (
             <div className="SkillsCloudBody ">
 
-                <BackgroundSlideshow  images={[ Image1, Image2, Image3,Image4]} />
+                <BackgroundSlideshow  images={[ Image1, Image2, Image3,Image4,Image5,Image6]} />
 
                 <ReactCSSTransitionGroup
                     transitionName="fade"
