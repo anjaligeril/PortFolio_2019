@@ -91,4 +91,16 @@ h1 {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
 
 }
+.headButton {
+    position: fixed;
+    top: 0;
+    right:30px;
+    margin-left: 600px;
+    margin-top: 30px;
+    z-index: 500;
+}
 
+.headButton a{
+    color: white;
+    font-size:15px
+}

@@ -69,9 +69,7 @@ class SkillsCloud extends Component {
                                 >
                                 <div
                                     style={{
-                                        fontSize: 40,
-                                        fontStyle: 'italic',
-
+                                        fontSize: 30,
                                         color: randomColor()
 
                                     }}>React.js</div>
