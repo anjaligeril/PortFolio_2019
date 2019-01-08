@@ -13,4 +13,6 @@
     margin-left:0px;
     margin-right: 0px;
 }
-
+* {
+    box-sizing: border-box;
+}

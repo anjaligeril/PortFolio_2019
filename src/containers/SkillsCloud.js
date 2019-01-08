@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import randomColor from 'randomcolor';
 import TagCloud from 'react-tag-cloud';
-import CloudItem from '../components/CloudItem';
+
 import './css/CloudSkillsCSS.css';
-import Video from "./images/background.mp4";
+
 import Cv from "./images/cv.pdf";
 import Image1 from'./images/img2.jpg'
 import Image2 from'./images/img3.jpeg'
 import Image3 from './images/img4.jpeg'
 import Image4 from './images/img5.jpg'
+import Image5 from './images/img6.jpg'
+import Image6 from './images/img7.jpg'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import BackgroundSlideshow from 'react-background-slideshow'
 
@@ -37,7 +39,7 @@ class SkillsCloud extends Component {
         return (
             <div className="SkillsCloudBody ">
 
-                <BackgroundSlideshow  images={[ Image1, Image2, Image3,Image4]} />
+                <BackgroundSlideshow  images={[ Image1, Image2, Image3,Image4,Image5,Image6]} />
 
                 <ReactCSSTransitionGroup
                     transitionName="fade"
@@ -67,9 +69,7 @@ class SkillsCloud extends Component {
                                 >
                                 <div
                                     style={{
-                                        fontSize: 40,
-                                        fontStyle: 'italic',
-
+                                        fontSize: 30,
                                         color: randomColor()
 
                                     }}>React.js</div>

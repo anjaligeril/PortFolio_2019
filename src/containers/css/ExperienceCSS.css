@@ -2,9 +2,9 @@
     margin-top:50px;
     position:relative;
     margin:0 auto;
-    width:960px;
+    width:80%;
     background-color: beige;
-    height:1500px;
+    height: auto;
     opacity: 0.9;
     padding:50px 50px 50px 50px;
 }
@@ -16,13 +16,14 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    height:100%;
 }
 
 
 .icon1{
     margin-left: 12px;
     margin-top:12px;
-    font-size:30px;
+    font-size:40px;
 }
 
 .vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
@@ -44,4 +45,23 @@
     -webkit-animation: cd-bounce-2-inverse 2.5s;
     -moz-animation: cd-bounce-2-inverse 2.5s;
     animation: cd-bounce-2-inverse 2.5s;
+}
+
+.title,.subtitle,.year,.description{
+    font-family: "Playfair Display", Georgia, serif;
+}
+.work .description{
+    font-size: 14px;
+}
+
+.work .title{
+    font-size: 22px;
+}
+
+.work .subtitle{
+    font-size: 18px;
+}
+
+.work .year{
+    font-size: 16px;
 }

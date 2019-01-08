@@ -24,8 +24,9 @@ class Services extends Component{
                         <div className="box1 services color-1">
                             <span className="icon  "><i className="glyphicon glyphicon-flash"></i></span>
                             <div className="desc">
-                                <h3 className="title">Innovative Ideas</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                <h3 className="title">Web Design
+                                </h3>
+                                <p>My passion is building simple, beautiful user experiences.</p>
                             </div>
                         </div>
                     </div>
@@ -33,8 +34,11 @@ class Services extends Component{
                         <div className="box1 services color-2">
                             <span className=" icon "><i className="glyphicon glyphicon-send"></i></span>
                             <div className="desc">
-                                <h3 className="title">Software</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                                <h3 className="title">Consulting
+                                </h3>
+                                <p>Looking for a new project and not sure about it?
+                                    I can help you with building your back-end system or make your
+                                    front end responsive.</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +46,11 @@ class Services extends Component{
                         <div className="box1 services color-3">
                             <span className=" icon "><i className=" fa fa-rocket"></i></span>
                             <div className="desc">
-                                <h3 className="title">Fast</h3>
-                                <p>Fast load times and lag free interaction, my highest priority.</p>
+                                <h3 className="title">Mobile App Development
+                                </h3>
+                                <p>Looking to bring something special to your mobile apps? I work in native programming languages and adhere to Google and
+                                    Apple’s design style guidelines for best user experiences.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -55,10 +62,12 @@ class Services extends Component{
                                              transitionLeaveTimeout={1000}>
                     <div className="col-md-4 text-center ">
                         <div className=" box1 services color-4">
-                            <i className="material-icons icon ">phonelink</i>
+                            <span className=" icon "><i className=" fa fa-rocket"></i></span>
                             <div className="desc">
-                                <h3 className="title">Responsive</h3>
-                                <p>My layouts will work on any device, big or small.</p>
+                                <h3 className="title">Digital Marketing
+                                </h3>
+                                <p>Content marketing, Social Media integration, Search engine optimization -
+                                    Contact me for any of your digital marketing needs.</p>
                             </div>
                         </div>
                     </div>
@@ -66,8 +75,13 @@ class Services extends Component{
                         <div className="box1 services color-5">
                             <span className="icon "> <i className="  fa fa-lightbulb-o"></i></span>
                             <div className="desc">
-                                <h3 className="title">Intuitive</h3>
-                                <p>Strong preference for easy to use, intuitive UX/UI.</p>
+                                <h3 className="title">Website Maintenance and Support
+                                </h3>
+                                <p>Troubles with your existing website?
+                                    Need support for crafting responsive designs which work seamlessly
+                                    across multiple websites? I can help you with existing website maintenance
+                                    and support activities.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -75,8 +89,8 @@ class Services extends Component{
                         <div className="box1 services color-6">
                             <span className="icon  "><i className="fa fa-magic"></i></span>
                             <div className="desc">
-                                <h3 className="title">Dynamic</h3>
-                                <p>Websites don't have to be static, I love making pages come to life.</p>
+                                <h3 className="title">Logos and Banners</h3>
+                                <p>Professional Logo and Banner designed tailored to your business and Industry.</p>
                             </div>
                         </div>
                     </div>

@@ -2,10 +2,10 @@
     margin-top:50px;
     position:relative;
     margin:0 auto;
-    width:960px;
+    width:80%;
     background-color: beige;
-    height:800px;
-    opacity: 0.9;
+    height:auto;
+    opacity: 0.97;
     padding:50px 50px 50px 50px;
 }
 
@@ -16,6 +16,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    height:100%
 }
 .contact-feature {
     text-align: left;
@@ -54,11 +55,11 @@
 }
 .contact-feature .contact-text h3 {
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     letter-spacing: 3px;
-    text-transform: uppercase; }
+    }
 .contact-feature.contact-feature-sm .contact-text {
     margin-top: 30px; }
 .contact-feature.contact-feature-sm .contact-icon i {
@@ -67,3 +68,10 @@
 @media screen and (max-width: 1200px) {
     .contact-feature.contact-feature-sm .contact-icon i {
         font-size: 18px; } }
+
+h4{
+    font-size: 18px;
+    position: relative;
+    font-family: "Playfair Display", Georgia, serif;
+    margin:40px;
+}

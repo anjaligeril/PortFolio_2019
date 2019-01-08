@@ -5,8 +5,6 @@ import './css/PortfolioCSS.css'
 import {Route} from "react-router-dom"
 import About from './About'
 import Services from './Services'
-import Skills from './Skills'
-import Education from './Education'
 import Experience from './Experience'
 import Contact from './Contact'
 import {Link} from 'react-router-dom'
@@ -53,7 +51,7 @@ class PortFolio extends Component{
                                 <div className="text-center  ">
                                     <img src={Img1} height="150" width="150" className="img-circle" alt="photo"/>
                                     <h3 className="title head ">Anjali Elizabeth Joseph</h3>
-                                    <span ><a href="#">Software Developer</a> </span><span className="head title">in Toronto</span>
+                                    <span className="head title">Software Developer in Toronto</span>
                                 </div>
                                 <div className="nav ">
 
@@ -85,8 +83,6 @@ class PortFolio extends Component{
                         <Route path="/" exact component={SkillsCloud}  />
                         <Route path="/about" exact component={About}/>
                         <Route path="/services" component={Services}/>
-                        <Route path="/skills" component={Skills}/>
-                        <Route path="/education" component={Education}/>
                         <Route path="/experience" component={Experience}/>
                         <Route path="/contact" component={Contact}/>
                     </div>
