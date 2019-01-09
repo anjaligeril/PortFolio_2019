@@ -75,3 +75,15 @@ h4{
     font-family: "Playfair Display", Georgia, serif;
     margin:40px;
 }
+
+.mapouter{
+    text-align:right;
+    height:400px;
+    width:100%;
+}
+.gmapcanvas{
+    overflow: hidden;
+    background: none;
+    height: 400px;
+    width: 100%;
+}

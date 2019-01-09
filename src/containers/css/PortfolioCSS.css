@@ -36,7 +36,7 @@
 /* Wrapper for item list */
 .bm-item-list {
     color: #b8b7ad;
-    padding: 0.6em;
+    padding:5px;
 }
 
 /* Individual item */
@@ -58,7 +58,7 @@ ul {
 }
 
 li{
-    padding-top:40px;
+    padding-top:30px;
 }
 .navigation {
 

@@ -13,7 +13,18 @@ class Contact extends Component{
                                          transitionLeaveTimeout={800}>
                 <span className="heading-meta title">Get in Touch</span>
                 <h2 className="subheading title">Contact</h2>
+                <div className="row mapLocation">
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="map">
+                        <div className="mapouter">
+                            <div className="gmapcanvas">
+                                <iframe width="100%" height="400" id="gmapcanvas"
+                                        src="https://maps.google.com/maps?q=trios%20college%20brampton&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
                 <div className="row">
 
                     <div className="col-md-5 col-lg-5 col-sm-12">
