@@ -49,9 +49,12 @@
 .contact-feature .contact-text {
     padding-left: 120px;
     width: 100%; }
-.contact-feature .contact-text h2, .contact-feature .contact-text h3 {
+.contact-feature .contact-text h2, .contact-feature .contact-text h3, .contact-feature .contact-text h3 a {
     margin: 0;
     padding: 0;
+    color:black;
+    font-size:15px;
+
 }
 .contact-feature .contact-text h3 {
     font-weight: 500;

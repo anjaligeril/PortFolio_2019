@@ -19,6 +19,7 @@
     "react-vertical-timeline-component": "^2.3.1",
     "reactstrap": "^7.0.0"
   },
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

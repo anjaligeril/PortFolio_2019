@@ -51,7 +51,7 @@ class PortFolio extends Component{
                                 <div className="text-center  ">
                                     <img src={Img1} height="150" width="150" className="img-circle" alt="photo"/>
                                     <h3 className="title head ">Anjali Elizabeth Joseph</h3>
-                                    <span className="head title">Software Developer in Toronto</span>
+                                    <h5 className="head title">Front End Developer in Toronto</h5>
                                 </div>
                                 <div className="nav ">
 

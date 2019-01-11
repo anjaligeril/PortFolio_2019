@@ -41,10 +41,10 @@ class Contact extends Component{
                         <div className="contact-feature contact-feature-sm "
                              >
                             <div className="contact-icon">
-                                <i className="glyphicon glyphicon-home"></i>
+                                <i className="	fa fa-map-marker"></i>
                             </div>
                             <div className="contact-text">
-                                <h3 className="title">56 Leander Street, Brampton ,Ontario L6S3M7</h3>
+                                <h3 className="title">triOS College Business Technology Healthcare - Brampton Campus,252 Queen St E, Brampton, ON L6V 1C1</h3>
                             </div>
                         </div>
 

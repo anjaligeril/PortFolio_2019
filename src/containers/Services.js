@@ -62,7 +62,7 @@ class Services extends Component{
                                              transitionLeaveTimeout={1000}>
                     <div className="col-md-4 text-center ">
                         <div className=" box1 services color-4">
-                            <span className=" icon "><i className=" fa fa-rocket"></i></span>
+                            <span className=" icon "><i className=" fa fa-black-tie"></i></span>
                             <div className="desc">
                                 <h3 className="title">Digital Marketing
                                 </h3>
