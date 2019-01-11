@@ -34,5 +34,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.8"
+  }
 }
